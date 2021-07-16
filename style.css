@@ -1,0 +1,111 @@
+body{width:100%;margin:0px;}
+
+button{width:50%;float:left;height:50vh;}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.9); 
+}
+
+.modal-content {
+  background-color: #17223b;
+  margin: 15% auto; 
+  padding: 20px;
+  width: 80%; 
+  height:58%;
+]
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: WHITE;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal img{
+
+    height:49%;
+    width:40%;
+    position:absolute;
+    margin-right:10px;
+   margin-top:3%;
+   border: 5px outset black;
+}
+#text{
+    margin-left: 51%;
+    float:right;
+    color: #ff6768;
+    text-align: justify;
+    pading-right:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#one{
+  font-size:30px;
+  background-image:linear-gradient(#333333,#ffffff);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 0 0 3px #FF0000;
+}
+#two{
+  font-size:30px;
+  background-image:linear-gradient(#333333,#e1f4f3);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 0 0 3px #FF0000;
+}
+#three{
+  font-size:30px;
+  background-image:radial-gradient(#706c61,#e1f4f3);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 0 0 3px #FF0000;
+}
+#four{
+  font-size:30px;
+  background-image:radial-gradient(#333333,#e1f4f3);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 0 0 3px #FF0000;
+}
+
+@media (min-width:320px) and (max-width:767px)
+{
+  #one{font-size:15px;}
+  #two{font-size:15px;}
+  #three{font-size:15px;}
+  #four{font-size:15px;}
+  .modal-content{height:75%;}
+  .modal img
+  {
+   height:29%;
+    width:75%;
+    position:absolute;
+    margin-right:10px;margin-top:0%;
+   }
+  #text{font-size:10px;text-align: none;margin-top:60%;margin-left: 0%;}
+  #img{ border: 3px outset black;}
+}
+@media (min-width:768px) and (max-width:1023px)
+{
+    .modal-content{height:100%;}
+  .modal img
+  {
+   height:40%;
+    width:65%;
+    position:absolute;
+    margin-right:10px;
+    margin-left:10px;margin-top:0%;
+   }
+  #text{font-size:16px;text-align: none;margin-top:40%;margin-left: 0%;}
+}
